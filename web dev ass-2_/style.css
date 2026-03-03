@@ -1,0 +1,40 @@
+body{
+    background-color: #747bae;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    color: rgb(123, 163, 157);
+    margin-left: 35%;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#search-box{
+    background-color: rgb(52, 100, 114);
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+#search-city{
+    padding: 10px 260px 10px 10px;
+}
+button{
+    background-color: #20d59c;
+    border: none;
+   border-radius: 5px;
+   padding: 12px 14px;
+   color: rgb(47, 6, 103);
+   cursor: pointer;
+}
+#weather-info-box{
+    background-color:rgb(143, 21, 114);
+    width: 550px;
+    border-radius: 15px;
+    padding: 10px;
+}
+#search-cities-box{
+    display: flex;
+    flex-wrap: wrap;   
+    gap: 8px;
+}
